@@ -1,9 +1,9 @@
-$primary_color:blue;
+@import 'variable_color';
 
 p{
-    background-color: $primary_color;
+    background-color: $danger_color;
 }
 
 .text{
-    color:red;
+    color:$secondary_color;
 }
